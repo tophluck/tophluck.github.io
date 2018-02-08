@@ -32,6 +32,14 @@ h1 {
     color: #777777;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .clearfix::after {
     content: "";
     display: block;
@@ -46,6 +54,7 @@ h2 {
     border-color: #4aaaa5;
     border-width: 0px 0px 5px 0px;
     border-style: solid;
+    margin: 0px 0px 10px 0px;
 }
 
 .specficContent {
@@ -54,7 +63,7 @@ h2 {
     width: 630px;
     color: #777777;
     background-color: #ffffff;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 40px 40px 0px;
 }
 
 .connect {
@@ -88,4 +97,70 @@ footer {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+
+#profilePicture {
+    float: left;
+    margin: 10px 10px 10px 0px;
+}
+
+p {
+    line-height: 130%;
+}
+
+h3 {
+    color: #87CEFA;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px;
+}
+
+textarea {
+    height: 200px;
+    width: 625px;
+}
+
+.textInput {
+    width: 625px;
+}
+
+.submitButton {
+    background-color: #4aaaa5;
+    color: white;
+    width: 70px;
+    height: 35px;
+}
+
+.portfolioPictureLeft {
+    float: left;
+    margin: 0px 5px;
+}
+
+.portfolioPictureRight {
+    float: right;
+    margin: 0px 5px;
+}
+
+.projectBannerLeft {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    left: 5px;
+    top: -70px;
+}
+
+.projectBannerRight {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    left: 325px;
+    top: -110px;
 }
