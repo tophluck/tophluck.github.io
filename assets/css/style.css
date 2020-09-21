@@ -103,7 +103,6 @@ footer {
     float: left;
     margin: 10px 10px 10px 0px;
     max-width: 200px;
-    max-height: 200px;
 }
 
 p {
@@ -137,14 +136,12 @@ textarea {
     float: left;
     margin: 0px 5px;
     max-height: 300px;
-    max-width: 300px;
 }
 
 .portfolioPictureRight {
     float: right;
     margin: 0px 5px;
     max-height: 300px;
-    max-width: 300px;
 }
 
 .projectBannerLeft {
