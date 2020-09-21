@@ -102,6 +102,8 @@ footer {
 #profilePicture {
     float: left;
     margin: 10px 10px 10px 0px;
+    width: 200px;
+    height: 200px;
 }
 
 p {
@@ -134,11 +136,15 @@ textarea {
 .portfolioPictureLeft {
     float: left;
     margin: 0px 5px;
+    height: 300px;
+    width: 300px;
 }
 
 .portfolioPictureRight {
     float: right;
     margin: 0px 5px;
+    height: 300px;
+    width: 300px;
 }
 
 .projectBannerLeft {
