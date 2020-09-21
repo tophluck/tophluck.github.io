@@ -102,8 +102,8 @@ footer {
 #profilePicture {
     float: left;
     margin: 10px 10px 10px 0px;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 p {
@@ -129,22 +129,22 @@ textarea {
 .submitButton {
     background-color: #4aaaa5;
     color: white;
-    width: 70px;
+    width: 50px;
     height: 35px;
 }
 
 .portfolioPictureLeft {
     float: left;
     margin: 0px 5px;
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .portfolioPictureRight {
     float: right;
     margin: 0px 5px;
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .projectBannerLeft {
