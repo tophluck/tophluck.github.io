@@ -128,7 +128,7 @@ textarea {
 .submitButton {
     background-color: #4aaaa5;
     color: white;
-    width: 50px;
+    max-width: 50px;
     height: 35px;
 }
 
